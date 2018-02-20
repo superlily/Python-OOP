@@ -1,0 +1,13 @@
+$ python employee.py
+Lily's email is Lily.Chen@company.com.
+
+<bound method Employee.fullname of <__main__.Employee instance at 0x101bc9c68>> 
+-- 'print(emp1.fullname)' should be 'print(emp1.fullname())'
+
+Lucy Lee
+********************************************************************************
+
+$ python employee.py
+Lily's email is Lily.Chen@company.com.
+Lily Chen
+Lucy Lee
