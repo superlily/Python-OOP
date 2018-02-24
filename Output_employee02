@@ -1,0 +1,20 @@
+$ python employee02.py
+There're 2 employees in total.
+Lily's annual salary is 20000.
+Lily's full name is Lily Chen.
+Traceback (most recent call last):
+  File "employee02.py", line 27, in <module>
+    emp1.apply_raise()
+  File "employee02.py", line 18, in apply_raise
+    self.pay = int(self.pay * raise_amount)
+NameError: global name 'raise_amount' is not defined
+
+
+*******************************************************
+
+$ python employee02.py
+There're 2 employees in total.
+Lily's annual salary is 20000.
+Lily's full name is Lily Chen.
+21000
+33000
