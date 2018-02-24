@@ -21,8 +21,13 @@ class Employee:
 emp1 = Employee('Lily', 'Chen', 20000)
 emp2 = Employee('Lucy', 'Lee', 30000)
 
+emp2.raise_amount = 1.10
+
 print"There're %d employees in total." % Employee.num_of_emps
 print "%s\'s annual salary is %r." % (emp1.first, emp1.pay)
 print "%s\'s full name is %s." % (emp1.first, emp1.fullname())
 emp1.apply_raise()
 print(emp1.pay)
+
+emp2.apply_raise()
+print(emp2.pay)
