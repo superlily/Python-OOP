@@ -16,7 +16,7 @@ while count < len(movies):
 print ('\n')
 
 print (movies.pop(3))
-print (movies)
+print (movies)#Chinese characters couldn't be showed correctly in outputs.
 print ('\n')
 
 movies.remove("捉妖记2")
