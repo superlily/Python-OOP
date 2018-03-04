@@ -1,0 +1,25 @@
+$ python practise_list.py
+4
+
+
+Coco
+Mexico
+Harry Potter
+英雄
+Speeding
+
+
+Coco
+Mexico
+Harry Potter
+英雄
+Speeding
+Me Before You
+捉妖记2
+
+
+英雄
+['Coco', 'Mexico', 'Harry Potter', 'Speeding', 'Me Before You', '\xe6\x8d\x89\xe5\xa6\x96\xe8\xae\xb02']
+
+
+['Coco', 'Mexico', 'Harry Potter', 'Speeding', 'Me Before You']
